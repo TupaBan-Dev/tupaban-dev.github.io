@@ -1,3 +1,3 @@
 window.onkeydown = e => {
-    if (e.key == " ") clicksCountSpan.innerText + 100;
+    if (e.key == " ") clicksCountSpan.innerText++;
 }
