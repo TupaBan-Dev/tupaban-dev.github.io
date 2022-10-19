@@ -1,3 +1,3 @@
 window.onkeydown = e => {
-    if (e.key == " ") alert("Ты ебалн");
+    if (e.key == " ") clicksCountSpan.innerText--;
 }
